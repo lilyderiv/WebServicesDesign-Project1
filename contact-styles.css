@@ -1,0 +1,112 @@
+/* Contact Page Style */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e3f2fd;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #181e4b;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  color: #df6951;
+}
+
+/* Contact Form */
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-container h1 {
+  color: #181e4b;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-container label {
+  font-weight: bold;
+  margin: 10px 0 5px;
+  display: block;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-container input[type="radio"],
+.contact-container input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.contact-container input[type="submit"],
+.contact-container input[type="reset"] {
+  background-color: #df6951;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.contact-container input[type="submit"]:hover,
+.contact-container input[type="reset"]:hover {
+  background-color: #181e4b;
+}
+
+/* Footer */
+footer {
+  background-color: #181e4b;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #df6951;
+  text-decoration: none;
+  font-weight: bold;
+}

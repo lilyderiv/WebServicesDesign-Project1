@@ -1,0 +1,80 @@
+/* Index Page Style */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e3f2fd;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #181e4b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li.active a {
+  color: #df6951;
+}
+
+/* Main Content */
+section {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+  color: #333;
+  font-size: 18px;
+}
+
+/* Image */
+.right {
+  display: block;
+  margin: 20px auto;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #181e4b;
+  color: white;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #df6951;
+  text-decoration: none;
+  font-weight: bold;
+}
