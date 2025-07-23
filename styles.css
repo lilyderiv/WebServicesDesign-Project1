@@ -1,0 +1,152 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e3f2fd;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #181e4b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a.active,
+nav ul li.active a {
+  color: #df6951;
+}
+
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+section p {
+  font-size: 18px;
+  color: #333;
+}
+
+ol {
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+}
+
+.right {
+  float: right;
+  margin: 20px;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* Tablo stili */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 5px solid black;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #181e4b;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  table {
+    display: none;
+  }
+}
+
+/* Contact özel */
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-container label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-container input[type="submit"],
+.contact-container input[type="reset"] {
+  background-color: #df6951;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.contact-container input[type="submit"]:hover,
+.contact-container input[type="reset"]:hover {
+  background-color: #181e4b;
+}
+
+footer {
+  background-color: #181e4b;
+  color: white;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #df6951;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -40,9 +40,9 @@ nav ul li a.active {
   color: #df6951;
 }
 
-/* Sections */
+/* Section Ayarları */
 section {
-  max-width: 600px;
+  max-width: 800px;
   margin: 30px auto;
   background-color: white;
   padding: 30px;
@@ -61,14 +61,31 @@ section p {
   font-size: 18px;
 }
 
-/* Ordered List */
-ol {
-  padding-left: 20px;
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: nowrap;
 }
 
-ol li {
-  font-size: 18px;
-  margin: 5px 0;
+.content img {
+  max-width: 45%;
+  height: auto;
+  opacity: 0.85;
+  border-radius: inherit;
+  box-shadow: inherit;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.right {
+  display: block;
+  margin: 20px auto;
+  max-width: 50%;
+  border-radius: 10px;
+}
+img:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 /* Table */
@@ -93,6 +110,9 @@ th {
 td {
   padding: 10px;
   text-align: center;
+}
+tr:hover {
+  background-color: #f1f1f1;
 }
 
 /* Footer */
